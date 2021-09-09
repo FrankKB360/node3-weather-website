@@ -81,7 +81,7 @@ app.get('/products', (req, res) => {
 
 app.get('/help/*', (req, res) => {
     res.render('404', {
-        title: 'Help for the Weather App',
+        title: 'Weather App Help',
         author: 'Frank van de Groep',
         errormessage: 'Missing help article'
     })
@@ -89,7 +89,7 @@ app.get('/help/*', (req, res) => {
 
 app.get('*', (req, res) => {
     res.render('404', {
-        title: 'Help for the Weather App',
+        title: 'Weather App Help',
         author: 'Frank van de Groep',
         errormessage: 'Missing page'
     })
