@@ -29,14 +29,14 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About the Weather App',
+        title: 'About me',
         author: 'Frank van de Groep'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        title: 'Help for the Weather App',
+        title: 'Weather App Help',
         author: 'Frank van de Groep',
         message: 'This is the help section of the Weather app.'
     })
